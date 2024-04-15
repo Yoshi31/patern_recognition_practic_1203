@@ -88,7 +88,7 @@ void detectCircles() {
 int main() {
     img = imread("C:/Users/zayka/Source/Repos/CV_NGTU/img.jpg", IMREAD_COLOR);
     if (img.empty()) {
-        cout << "Image not loaded" << endl;
+        cout << "Unable to read the image \n" << endl;
         return -1;
     }
 
